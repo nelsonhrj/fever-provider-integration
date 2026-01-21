@@ -29,14 +29,20 @@ git clone https://github.com/nelsonhrj/fever-provider-integration.git
 # 2. Enter the project
 cd fever-provider-integration
 
-# 3. Install dependencies, generate key, migrate DB
+# 3. Config the database connection
+# create the .env file from .env.example and modify the database credentials: 
+# DB_USERNAME=dbuser
+# DB_DATABASE=dbname
+# DB_PASSWORD=dbpassword
+
+# 4. Install dependencies, generate key, migrate DB
 make install
 make migrate
 
-# 4. Sync events from provider (manual first run)
+# 5. Sync events from provider (manual first run)
 make sync
 
-# 5. Start the server
+# 6. Start the server
 make serve
 ```
 
