@@ -104,11 +104,11 @@ Feature tests verify the endpoint in key scenarios:
 
 Run tests with:
 ```bash
-php artisan test
+vendor/bin/phpunit tests/Feature/EventsEndpointTest.php
 ```
 or 
 ```bash
-vendor/bin/phpunit tests/Feature/EventsEndpointTest.php
+php artisan test
 ```
 
 ## Performance & Scalability
