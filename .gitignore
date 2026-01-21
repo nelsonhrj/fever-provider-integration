@@ -1,0 +1,45 @@
+# Laravel / PHP defaults
+/vendor
+/node_modules
+.env
+.env.*
+.env.backup
+.env.production
+.phpunit.result.cache
+.phpunit.cache
+/composer.lock.bak
+Homestead.json
+Homestead.yaml
+auth.json
+
+# IDE / Editor files
+/.idea
+/.fleet
+/.nova
+/.vscode
+/.zed
+.phpactor.json
+
+# OS / System files
+.DS_Store
+Thumbs.db
+
+# Logs & caches
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*
+/public/storage
+
+# Testing & coverage
+/coverage/
+
+# Local database files (aunque uses MySQL, por seguridad)
+database/database.sqlite
+
+# Build artifacts (si usas frontend)
+public/build
+public/hot
+npm-debug.log
+yarn-error.log
